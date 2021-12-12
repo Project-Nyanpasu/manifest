@@ -44,6 +44,7 @@
   <project path="external/libvterm" name="external_libvterm" remote="nyanpasu" />
   <project path="external/mksh" name="external_mksh" remote="nyanpasu" />
   <project path="external/tinycompress" name="external_tinycompress" remote="nyanpasu" />
+  <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
   <project path="external/zlib-ng" name="external_zlib-ng" remote="nyanpasu" />
 
   <!-- frameworks -->
