@@ -1,0 +1,16 @@
+![Nyanpasu](https://reallysnow.moe/usr/uploads/banner.png)
+
+Nyanpasu
+===========
+
+Getting started
+---------------
+
+To initialize, use a command like this:
+```
+repo init -u https://github.com/Project-Nyanpasu/manifest.git -b sukiki-mr1
+```
+Then to sync up:
+```
+repo sync
+```

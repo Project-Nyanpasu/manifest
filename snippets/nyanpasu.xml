@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="nyanpasu"
+           fetch="https://github.com/Project-Nyanpasu"
+           review="https://review.reallysnow.moe/"
+           revision="refs/heads/sukiki-mr1" />
+</manifest>
