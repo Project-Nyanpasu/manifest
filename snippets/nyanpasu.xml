@@ -4,4 +4,94 @@
            fetch="https://github.com/Project-Nyanpasu"
            review="https://review.reallysnow.moe/"
            revision="refs/heads/sukiki-mr1" />
+
+  <remote  name="nyanpasu-gitlab"
+           fetch="https://gitlab.com/Kirara-Miya"
+           review="https://review.reallysnow.moe/"
+           revision="refs/heads/sukiki-mr1" />
+
+  <project path="art" name="art" remote="nyanpasu" />
+  <project path="bionic" name="bionic" groups="pdk" remote="nyanpasu" />
+  <project path="manifest" name="manifest" remote="nyanpasu" />
+
+  <!-- build -->
+  <project path="build/make" name="build" groups="pdk" remote="nyanpasu" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="build_soong" groups="pdk,tradefed" remote="nyanpasu" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <!-- bootable -->
+  <project path="bootable/recovery" name="bootable_recovery" remote="nyanpasu" />
+
+  <!-- device -->
+  <project path="device/nyanpasu/sepolicy" name="device_nyanpasu_sepolicy" remote="nyanpasu" />
+
+  <!-- external -->
+  <project path="external/e2fsprogs" name="external_e2fsprogs" remote="nyanpasu" />
+  <project path="external/exfatprogs" name="external_exfatprogs" remote="nyanpasu" />
+  <project path="external/gptfdisk" name="external_gptfdisk" remote="nyanpasu" />
+  <project path="external/jemalloc_new" name="external_jemalloc_new" remote="nyanpasu" />
+  <project path="external/json-c" name="external_json-c" remote="nyanpasu" />
+  <project path="external/mksh" name="external_mksh" remote="nyanpasu" />
+  <project path="external/tinycompress" name="external_tinycompress" remote="nyanpasu" />
+  <project path="external/zlib-ng" name="external_zlib-ng" remote="nyanpasu" />
+
+  <!-- frameworks -->
+  <project path="frameworks/av" name="frameworks_av" remote="nyanpasu" />
+  <project path="frameworks/base" name="frameworks_base" remote="nyanpasu" />
+  <project path="frameworks/native" name="frameworks_native" remote="nyanpasu" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="nyanpasu" />
+
+  <!-- hardware -->
+  <project path="hardware/qcom/camera" name="hardware_qcom_camera" groups="qcom_camera,pdk-qcom" remote="nyanpasu" />
+  <project path="hardware/qcom/data/ipacfg-mgr" name="hardware_qcom_data_ipacfg-mgr" groups="qcom,pdk-qcom" remote="nyanpasu" />
+  <project path="hardware/qcom/sdm845/display" name="hardware_qcom_sdm845_display" groups="generic_fs,qcom_sdm845" remote="nyanpasu" />
+  <project path="hardware/qcom/sdm845/media" name="hardware_qcom_sdm845_media" groups="generic_fs,qcom_sdm845" remote="nyanpasu" />
+  <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" remote="nyanpasu" />
+
+  <!-- packages -->
+  <project path="packages/apps/AudioFX" name="packages_apps_AudioFX" remote="nyanpasu" />
+  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="nyanpasu" />
+  <project path="packages/apps/CarrierConfig" name="packages_apps_CarrierConfig" remote="nyanpasu" />
+  <project path="packages/apps/ElmyraService" name="packages_apps_ElmyraService" remote="nyanpasu" />
+  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="nyanpasu" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="nyanpasu" />
+  <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="nyanpasu" />
+  <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="nyanpasu" />
+  <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="nyanpasu" />
+  <project path="packages/modules/adb" name="packages_modules_adb" remote="nyanpasu" />
+  <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="nyanpasu" />
+  <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="nyanpasu" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="nyanpasu" />
+
+  <!-- prebuilts -->
+  <project path="prebuilts/abi-dumps/ndk" name="prebuilts_abi-dumps_ndk" remote="nyanpasu" clone-depth="1" />
+  <project path="prebuilts/tools-nyanpasu" name="prebuilts_tools-nyanpasu" remote="nyanpasu" />
+
+  <!-- system -->
+  <project path="system/bt" name="system_bt" remote="nyanpasu" />
+  <project path="system/core" name="system_core" remote="nyanpasu" />
+  <project path="system/libziparchive" name="system_libziparchive" remote="nyanpasu" />
+  <project path="system/media" name="system_media" remote="nyanpasu" />
+  <project path="system/security" name="system_security" remote="nyanpasu" />
+  <project path="system/sepolicy" name="system_sepolicy" remote="nyanpasu" />
+  <project path="system/update_engine" name="system_update_engine" remote="nyanpasu" />
+  <project path="system/vold" name="system_vold" remote="nyanpasu" />
+
+  <!-- tools -->
+  <project path="tools/extract-utils" name="tools_extract-utils" remote="nyanpasu" />
+
+  <!-- vendor -->
+  <project path="vendor/gapps" name="vendor_gapps" remote="nyanpasu-gitlab" clone-depth="1" />
+  <project path="vendor/nyanpasu" name="vendor_nyanpasu" remote="nyanpasu" />
+  <project path="vendor/support" name="vendor_support" remote="nyanpasu" />
 </manifest>
