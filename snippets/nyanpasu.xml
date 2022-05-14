@@ -65,6 +65,7 @@
   <project path="packages/apps/CarrierConfig" name="packages_apps_CarrierConfig" remote="nyanpasu" />
   <project path="packages/apps/ElmyraService" name="packages_apps_ElmyraService" remote="nyanpasu" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="nyanpasu" />
+  <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="nyanpasu" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="nyanpasu" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="nyanpasu" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="nyanpasu" />
