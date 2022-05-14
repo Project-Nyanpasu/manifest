@@ -57,6 +57,7 @@
   <project path="hardware/qcom/sdm845/display" name="hardware_qcom_sdm845_display" groups="generic_fs,qcom_sdm845" remote="nyanpasu" />
   <project path="hardware/qcom/sdm845/media" name="hardware_qcom_sdm845_media" groups="generic_fs,qcom_sdm845" remote="nyanpasu" />
   <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" remote="nyanpasu" />
+  <project path="hardware/lineage/interfaces" name="hardware_lineage_interfaces" remote="nyanpasu" />
 
   <!-- packages -->
   <project path="packages/apps/AudioFX" name="packages_apps_AudioFX" remote="nyanpasu" />
