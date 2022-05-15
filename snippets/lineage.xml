@@ -5,6 +5,18 @@
            review="https://review.lineageos.org"
            revision="refs/heads/lineage-19.1" />
 
+  <!-- The below will sync if you have a gitlab remote defined, but review/approval
+       does not run through Gerrit. Additionally, those who sync referncing a
+       mirror won't get that benefit from this remote/project. Place a line in
+       a local manifest if you desire x86_64 Webview -->
+  <project path="external/bash" name="android_external_zip" remote="lineage" />
+  <project path="external/htop" name="android_external_htop" remote="lineage" />
+  <project path="external/libncurses" name="android_external_libncurses" remote="lineage" />
+  <project path="external/p7zip" name="android_external_p7zip" remote="lineage" />
+  <project path="external/pigz" name="android_external_pigz" remote="lineage" />
+  <project path="external/rsync" name="android_external_rsync" remote="lineage" />
+  <project path="external/vim" name="android_external_vim" remote="lineage" />
+
   <!-- CodeAurora additions -->
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="lineage" />
   <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="lineage" revision="lineage-19.1-legacy-um" />
