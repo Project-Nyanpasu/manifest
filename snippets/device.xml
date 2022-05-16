@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- device -->
+  <project path="device/google/crosshatch" name="device_google_crosshatch" remote="nyanpasu" />
+  <!--project path="device/google/taimen" name="device_google_taimen" remote="nyanpasu" /-->
+  <!--project path="device/google/wahoo" name="device_google_wahoo" remote="nyanpasu" /-->
+  <!--project path="device/google/walleye" name="device_google_walleye" remote="nyanpasu" /-->
+
+  <!-- kernel -->
+  <project path="kernel/google/bluecross" name="kernel_google_bluecross" remote="nyanpasu" />
+  <!--project path="kernel/google/wahoo" name="kernel_google_wahoo" remote="nyanpasu" /-->
+
+  <!-- vendor -->
+  <project path="vendor/google" name="vendor_google" remote="nyanpasu-gitlab" />
+</manifest>
