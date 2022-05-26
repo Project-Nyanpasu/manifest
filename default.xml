@@ -1116,6 +1116,4 @@
   <include name="snippets/lineage.xml"/>
   <include name="snippets/nyanpasu.xml"/>
   <include name="snippets/device.xml"/>
-
-  <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 </manifest>
