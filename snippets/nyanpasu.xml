@@ -71,6 +71,7 @@
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="nyanpasu" />
   <project path="packages/apps/SimpleDeviceConfig" name="packages_apps_SimpleDeviceConfig" remote="nyanpasu" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="nyanpasu" />
+  <project path="packages/apps/Updater" name="packages_apps_Updater" remote="nyanpasu" />
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="nyanpasu" />
   <project path="packages/modules/adb" name="packages_modules_adb" remote="nyanpasu" />
   <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="nyanpasu" />
