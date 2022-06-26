@@ -41,6 +41,7 @@
   <project path="external/gptfdisk" name="external_gptfdisk" remote="nyanpasu" />
   <project path="external/jemalloc_new" name="external_jemalloc_new" remote="nyanpasu" />
   <project path="external/json-c" name="external_json-c" remote="nyanpasu" />
+  <project path="external/libvterm" name="external_libvterm" remote="nyanpasu" />
   <project path="external/mksh" name="external_mksh" remote="nyanpasu" />
   <project path="external/tinycompress" name="external_tinycompress" remote="nyanpasu" />
   <project path="external/zlib-ng" name="external_zlib-ng" remote="nyanpasu" />
@@ -70,6 +71,7 @@
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="nyanpasu" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="nyanpasu" />
   <project path="packages/apps/SimpleDeviceConfig" name="packages_apps_SimpleDeviceConfig" remote="nyanpasu" />
+  <project path="packages/apps/Terminal" name="packages_apps_Terminal" remote="nyanpasu" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="nyanpasu" />
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="nyanpasu" />
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="nyanpasu" />
