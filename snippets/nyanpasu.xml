@@ -64,6 +64,7 @@
   <project path="packages/apps/AudioFX" name="packages_apps_AudioFX" remote="nyanpasu" />
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="nyanpasu" />
   <project path="packages/apps/CarrierConfig" name="packages_apps_CarrierConfig" remote="nyanpasu" />
+  <project path="packages/apps/DocumentsUI" name="packages_apps_DocumentsUI" remote="nyanpasu" />
   <project path="packages/apps/EmergencyInfo" name="packages_apps_EmergencyInfo" remote="nyanpasu" />
   <project path="packages/apps/ElmyraService" name="packages_apps_ElmyraService" remote="nyanpasu" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="nyanpasu" />
