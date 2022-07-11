@@ -3,12 +3,12 @@
   <remote  name="nyanpasu"
            fetch="ssh://git@github.com/Project-Nyanpasu"
            review="https://review.reallysnow.moe/"
-           revision="refs/heads/sukiki-mr1" />
+           revision="refs/heads/sukiki-caf" />
 
   <remote  name="nyanpasu-gitlab"
            fetch="https://gitlab.com/Kirara-Miya"
            review="https://review.reallysnow.moe/"
-           revision="refs/heads/sukiki-mr1" />
+           revision="refs/heads/sukiki-caf" />
 
   <project path="art" name="art" remote="nyanpasu" />
   <project path="bionic" name="bionic" groups="pdk" remote="nyanpasu" />
