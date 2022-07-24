@@ -5,11 +5,14 @@
   <!--project path="device/google/taimen" name="device_google_taimen" remote="nyanpasu" /-->
   <!--project path="device/google/wahoo" name="device_google_wahoo" remote="nyanpasu" /-->
   <!--project path="device/google/walleye" name="device_google_walleye" remote="nyanpasu" /-->
+  <project path="device/xiaomi/sirius" name="device_xiaomi_sirius" remote="nyanpasu" />
 
   <!-- kernel -->
   <project path="kernel/google/bluecross" name="kernel_google_bluecross" remote="nyanpasu" />
   <!--project path="kernel/google/wahoo" name="kernel_google_wahoo" remote="nyanpasu" /-->
+  <project path="kernel/xiaomi/sirius" name="kernel_xiaomi_sirius" remote="nyanpasu" />
 
   <!-- vendor -->
   <project path="vendor/google" name="vendor_google" remote="nyanpasu-gitlab" />
+  <project path="vendor/xiaomi" name="vendor_xiaomi" remote="nyanpasu-gitlab" />
 </manifest>
