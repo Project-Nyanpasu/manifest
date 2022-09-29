@@ -1,0 +1,33 @@
+![Nyanpasu](https://reallysnow.moe/usr/uploads/banner-T.png)
+
+# Project Nyanpasu
+
+### Setup
+
+You must be running a 64-bit Linux distribution and must have installed some packages to build
+Nyanpasu. Google recommends using [Ubuntu](http://www.ubuntu.com/download/desktop) for
+this and provides instructions for setting up the system (with Ubuntu-specific commands) on
+[the Android Open Source Project website](https://source.android.com/source/initializing.html#setting-up-a-linux-build-environment).
+
+Once you have set up your machine according to the instructions by Google, return here and carry
+on with the rest of the instructions.
+
+### Getting started
+
+To initialize, use a command like this:
+```
+repo init -u https://github.com/Project-Nyanpasu/manifest.git -b timobaka
+```
+Then to sync up:
+```
+repo sync
+```
+
+### Build
+Use command to build Nyanpasu.
+```
+. build/envsetup.sh
+lunch nyanpasu_{device}-{type}
+mka bacon
+```
+Then enjoy it.

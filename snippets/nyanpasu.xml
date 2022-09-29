@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="nyanpasu"
+           fetch="https://github.com/Project-Nyanpasu"
+           review="review.reallysnow.moe"
+           revision="refs/heads/timobaka"/>
+
+  <remote  name="nyanpasu-priv"
+           fetch="ssh://git@github.com/Project-Nyanpasu"
+           revision="refs/heads/timobaka" />
+
+  <remote  name="nyanpasu-gitlab"
+           fetch="https://gitlab.com/Kirara-Miya"
+           revision="refs/heads/timobaka" />
+
+  <remote  name="blobs"
+           fetch="https://github.com/ThankYouYuuri"
+           revision="refs/heads/timobaka" />
+
+  <remote  name="blobs-priv"
+           fetch="ssh://git@github.com/ThankYouYuuri"
+           revision="refs/heads/timobaka" />
+
+  <remove-project name="platform/bootable/recovery" />
+  <project path="bootable/recovery" name="bootable_recovery" remote="nyanpasu" />
+
+  <!-- Build -->
+  <remove-project name="platform/build_repo" />
+  <project path="build/make" name="build" remote="nyanpasu">
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <remove-project name="platform/build/soong" />
+  <project path="build/soong" name="build_soong" remote="nyanpasu">
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <!-- Frameworks -->
+  <remove-project name="platform/frameworks/base" />
+  <project path="frameworks/base" name="frameworks_base" remote="nyanpasu" />
+  <remove-project name="platform/frameworks/native" />
+  <project path="frameworks/native" name="frameworks_native" remote="nyanpasu" />
+  <remove-project name="platform/frameworks/opt/telephony" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="nyanpasu" />
+
+  <!-- packages -->
+  <remove-project name="platform/packages/apps/Launcher3" />
+  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="nyanpasu" />
+  <remove-project name="platform/packages/apps/Settings" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="nyanpasu" />
+  <remove-project name="platform/packages/apps/SettingsIntelligence" />
+  <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="nyanpasu" />
+
+  <!-- system -->
+  <remove-project name="platform/system/core" />
+  <project path="system/core" name="system_core" remote="nyanpasu" />
+  <remove-project name="platform/system/update_engine" />
+  <project path="system/update_engine" name="system_update_engine" remote="nyanpasu" />
+
+  <!-- vendor -->
+  <project path="vendor/gapps" name="vendor_gapps" remote="nyanpasu-gitlab" clone-depth="1" />
+  <project path="vendor/nyanpasu" name="vendor_nyanpasu" remote="nyanpasu" />
+  <project path="vendor/mameko" name="vendor_mameko" remote="nyanpasu" />
+</manifest>
