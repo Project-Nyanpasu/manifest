@@ -40,6 +40,13 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
+  <!-- Devices -->
+  <remove-project name="device/qcom/common" />
+  <project path="device/qcom/common" name="device_qcom_common" remote="nyanpasu" >
+    <linkfile dest="device/qcom/qssi/Android.bp" src="Androidbp" />
+    <linkfile dest="vendor/qcom/build/tasks/generate_extra_images.mk" src="generate_extra_images.mk" />
+  </project>
+
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/base" />
   <project path="frameworks/base" name="frameworks_base" remote="nyanpasu" />
