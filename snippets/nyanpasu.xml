@@ -66,6 +66,8 @@
   <!-- system -->
   <remove-project name="platform/system/core" />
   <project path="system/core" name="system_core" remote="nyanpasu" />
+  <remove-project name="platform/system/sepolicy" />
+  <project path="system/sepolicy" name="system_sepolicy" remote="nyanpasu" />
   <remove-project name="platform/system/update_engine" />
   <project path="system/update_engine" name="system_update_engine" remote="nyanpasu" />
 
