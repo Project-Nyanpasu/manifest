@@ -62,6 +62,8 @@
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="nyanpasu" />
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="nyanpasu" />
+  <remove-project name="platform/packages/apps/ThemePicker" />
+  <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="nyanpasu" />
 
   <!-- system -->
   <remove-project name="platform/system/core" />
