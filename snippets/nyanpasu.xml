@@ -64,6 +64,8 @@
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="nyanpasu" />
   <remove-project name="platform/packages/apps/ThemePicker" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="nyanpasu" />
+  <remove-project name="platform/packages/modules/Bluetooth" />
+  <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="nyanpasu" />
 
   <!-- system -->
   <remove-project name="platform/system/core" />
