@@ -85,4 +85,8 @@
   <remove-project name="platform/vendor/qcom/holi" />
   <remove-project name="platform/vendor/qcom/kona" />
   <remove-project name="platform/vendor/qcom/lahaina" />
+
+  <!-- NXP NFC -->
+  <remove-project name="platform/vendor/nxp/opensource/halimpl" />
+  <remove-project name="platform/vendor/nxp/opensource/hidlimpl" />
 </manifest>
