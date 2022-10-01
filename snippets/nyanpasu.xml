@@ -46,6 +46,8 @@
     <linkfile dest="device/qcom/qssi/Android.bp" src="Androidbp" />
     <linkfile dest="vendor/qcom/build/tasks/generate_extra_images.mk" src="generate_extra_images.mk" />
   </project>
+  <remove-project name="device/qcom/sepolicy_vndr" />
+  <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="nyanpasu" />
 
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/base" />
