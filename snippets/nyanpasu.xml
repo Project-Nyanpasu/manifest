@@ -97,4 +97,7 @@
   <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="nyanpasu" />
   <remove-project name="platform/vendor/qcom-opensource/vibrator" />
   <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" remote="nyanpasu" />
+
+  <!-- Other -->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="la_system" revision="4d16d93f49c2b5ecdd0f12c38d194835dd595603" clone-depth="1" />
 </manifest>
