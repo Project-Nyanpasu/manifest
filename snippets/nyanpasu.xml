@@ -48,6 +48,10 @@
   </project>
   <remove-project name="device/qcom/sepolicy_vndr" />
   <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="nyanpasu" />
+  <remove-project name="kernel/build" />
+  <project path="device/qcom/kernelscripts" name="kernel_build" remote="nyanpasu">
+    <linkfile dest="vendor/qcom/build/tasks/kernel_definitions.mk" src="kernel_definitions.mk"/>
+  </project>
 
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/base" />
