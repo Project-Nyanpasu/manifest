@@ -63,6 +63,12 @@
   <remove-project name="platform/frameworks/opt/telephony" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="nyanpasu" />
 
+  <!-- Hardware -->
+  <remove-project name="platform/hardware/interfaces" />
+  <project path="hardware/interfaces" name="hardware_interfaces" remote="nyanpasu" />
+  <remove-project name="platform/hardware/libhardware" />
+  <project path="hardware/libhardware" name="hardware_libhardware" remote="nyanpasu" />
+
   <!-- packages -->
   <remove-project name="platform/packages/apps/Launcher3" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="nyanpasu" />
