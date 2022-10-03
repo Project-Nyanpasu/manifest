@@ -70,6 +70,7 @@
   <project path="hardware/libhardware" name="hardware_libhardware" remote="nyanpasu" />
 
   <!-- packages -->
+  <project path="packages/apps/SimpleDeviceConfig" name="packages_apps_SimpleDeviceConfig" remote="nyanpasu" />
   <remove-project name="platform/packages/apps/Launcher3" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="nyanpasu" />
   <remove-project name="platform/packages/apps/Settings" />
@@ -80,6 +81,7 @@
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="nyanpasu" />
   <remove-project name="platform/packages/modules/Bluetooth" />
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="nyanpasu" />
+  <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="nyanpasu" />
 
   <!-- system -->
   <remove-project name="platform/system/core" />
