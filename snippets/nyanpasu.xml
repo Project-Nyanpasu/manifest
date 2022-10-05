@@ -74,6 +74,8 @@
 
   <!-- packages -->
   <project path="packages/apps/SimpleDeviceConfig" name="packages_apps_SimpleDeviceConfig" remote="nyanpasu" />
+  <remove-project name="platform/packages/apps/CarrierConfig" />
+  <project path="packages/apps/CarrierConfig" name="packages_apps_CarrierConfig" remote="nyanpasu" />
   <remove-project name="platform/packages/apps/Launcher3" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="nyanpasu" />
   <remove-project name="platform/packages/apps/Settings" />
@@ -87,6 +89,8 @@
   <remove-project name="platform/packages/modules/Bluetooth" />
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="nyanpasu" />
   <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="nyanpasu" />
+  <remove-project name="platform/packages/services/Telephony" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="nyanpasu" />
 
   <!-- system -->
   <remove-project name="platform/system/core" />
