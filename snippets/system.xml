@@ -371,10 +371,8 @@
   <project name="platform/external/open-dice" path="external/open-dice" remote="la_system" />
   <project name="platform/external/opencensus-java" path="external/opencensus-java" remote="la_system" />
   <project name="platform/external/openscreen" path="external/openscreen" remote="la_system" />
-  <project name="platform/external/openthread" path="external/openthread" remote="la_system" />
   <project name="platform/external/openwrt-prebuilts" path="external/openwrt-prebuilts" remote="la_system" />
   <project name="platform/external/oss-fuzz" path="external/oss-fuzz" remote="la_system" />
-  <project name="platform/external/ot-br-posix" path="external/ot-br-posix" remote="la_system" />
   <project name="platform/external/owasp/sanitizer" path="external/owasp/sanitizer" remote="la_system" />
   <project name="platform/external/parameter-framework" path="external/parameter-framework" remote="la_system" />
   <project name="platform/external/pcre" path="external/pcre" remote="la_system" />
@@ -747,7 +745,6 @@
   <project name="platform/frameworks/opt/net/ims" path="frameworks/opt/net/ims" remote="la_system" />
   <project name="platform/frameworks/opt/net/voip" path="frameworks/opt/net/voip" remote="la_system" />
   <project name="platform/frameworks/opt/net/wifi" path="frameworks/opt/net/wifi" remote="la_system" />
-  <project name="platform/frameworks/opt/pc/windowmanager" path="frameworks/opt/pc/windowmanager" remote="la_system" />
   <project name="platform/frameworks/opt/photoviewer" path="frameworks/opt/photoviewer" remote="la_system" />
   <project name="platform/frameworks/opt/setupwizard" path="frameworks/opt/setupwizard" remote="la_system" />
   <project name="platform/frameworks/opt/telephony" path="frameworks/opt/telephony" remote="la_system" />
@@ -772,7 +769,6 @@
   <project name="platform/hardware/st/nfc" path="hardware/st/nfc" remote="la_system" />
   <project name="platform/hardware/st/secure_element" path="hardware/st/secure_element" remote="la_system" />
   <project name="platform/hardware/st/secure_element2" path="hardware/st/secure_element2" remote="la_system" />
-  <project name="platform/hardware/synaptics/wlan" path="hardware/synaptics/wlan" remote="la_system" />
   <project name="platform/hardware/ti/am57x" path="hardware/ti/am57x" remote="la_system" />
   <project name="platform/libcore" path="libcore" remote="la_system" />
   <project name="platform/libnativehelper" path="libnativehelper" remote="la_system" />
@@ -796,8 +792,6 @@
   <project name="platform/packages/apps/Car/SettingsIntelligence" path="packages/apps/Car/SettingsIntelligence" remote="la_system" />
   <project name="platform/packages/apps/Car/SystemUI" path="packages/apps/Car/SystemUI" remote="la_system" />
   <project name="platform/packages/apps/Car/SystemUpdater" path="packages/apps/Car/SystemUpdater" remote="la_system" />
-  <project name="platform/packages/apps/Car/Templates" path="packages/apps/Car/Templates" remote="la_system" />
-  <project name="platform/packages/apps/Car/VoiceControl" path="packages/apps/Car/VoiceControl" remote="la_system" />
   <project name="platform/packages/apps/Car/systemlibs" path="packages/apps/Car/systemlibs" remote="la_system" />
   <project name="platform/packages/apps/CarrierConfig" path="packages/apps/CarrierConfig" remote="la_system" />
   <project name="platform/packages/apps/CellBroadcastReceiver" path="packages/apps/CellBroadcastReceiver" remote="la_system" />
@@ -858,7 +852,6 @@
   <project name="platform/packages/modules/AdServices" path="packages/modules/AdServices" remote="la_system" />
   <project name="platform/packages/modules/AppSearch" path="packages/modules/AppSearch" remote="la_system" />
   <project clone-depth="1" name="platform/packages/modules/ArtPrebuilt" path="packages/modules/ArtPrebuilt" remote="la_system" />
-  <project name="platform/packages/modules/Auxiliary" path="packages/modules/Auxiliary" remote="la_system" />
   <project name="platform/packages/modules/Bluetooth" path="packages/modules/Bluetooth" remote="la_system" />
   <project clone-depth="1" name="platform/packages/modules/BootPrebuilt/5.10/arm64" path="packages/modules/BootPrebuilt/5.10/arm64" remote="la_system" />
   <project clone-depth="1" name="platform/packages/modules/BootPrebuilt/5.4/arm64" path="packages/modules/BootPrebuilt/5.4/arm64" remote="la_system" />
@@ -870,10 +863,8 @@
   <project name="platform/packages/modules/GeoTZ" path="packages/modules/GeoTZ" remote="la_system" />
   <project name="platform/packages/modules/Gki" path="packages/modules/Gki" remote="la_system" />
   <project name="platform/packages/modules/IPsec" path="packages/modules/IPsec" remote="la_system" />
-  <project name="platform/packages/modules/IntentResolver" path="packages/modules/IntentResolver" remote="la_system" />
   <project name="platform/packages/modules/Media" path="packages/modules/Media" remote="la_system" />
   <project name="platform/packages/modules/ModuleMetadata" path="packages/modules/ModuleMetadata" remote="la_system" />
-  <project name="platform/packages/modules/Nearby" path="packages/modules/Nearby" remote="la_system" />
   <project name="platform/packages/modules/NetworkPermissionConfig" path="packages/modules/NetworkPermissionConfig" remote="la_system" />
   <project name="platform/packages/modules/NetworkStack" path="packages/modules/NetworkStack" remote="la_system" />
   <project name="platform/packages/modules/NeuralNetworks" path="packages/modules/NeuralNetworks" remote="la_system" />
@@ -1052,7 +1043,6 @@
   <project name="platform/tools/loganalysis" path="tools/loganalysis" remote="la_system" />
   <project name="platform/tools/metalava" path="tools/metalava" remote="la_system" />
   <project name="platform/tools/ndkports" path="tools/ndkports" remote="la_system" />
-  <project name="platform/tools/repohooks" path="tools/repohooks" remote="la_system" />
   <project name="platform/tools/security" path="tools/security" remote="la_system" />
   <project name="platform/tools/test/connectivity" path="tools/test/connectivity" remote="la_system" />
   <project name="platform/tools/test/graphicsbenchmark" path="tools/test/graphicsbenchmark" remote="la_system" />
