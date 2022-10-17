@@ -132,4 +132,5 @@
   <project path="tools/extract-utils" name="tools_extract-utils" remote="nyanpasu" />
   <project path="vendor/qcom/common" name="proprietary_vendor_qcom_common" remote="nyanpasu-gitlab" />
   <project path="vendor/qcom/sdclang" name="proprietary_vendor_qcom_sdclang" remote="nyanpasu-gitlab" clone-depth="1" />
+  <project path="vendor/support" name="vendor_support" remote="nyanpasu" />
 </manifest>
