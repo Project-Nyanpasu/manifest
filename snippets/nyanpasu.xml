@@ -80,6 +80,8 @@
   <project path="packages/apps/SimpleDeviceConfig" name="packages_apps_SimpleDeviceConfig" remote="nyanpasu" />
   <remove-project name="platform/packages/apps/CarrierConfig" />
   <project path="packages/apps/CarrierConfig" name="packages_apps_CarrierConfig" remote="nyanpasu" />
+  <remove-project name="platform/packages/apps/EmergencyInfo" />
+  <project path="packages/apps/EmergencyInfo" name="packages_apps_EmergencyInfo" remote="nyanpasu" />
   <remove-project name="platform/packages/apps/Launcher3" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="nyanpasu" />
   <remove-project name="platform/packages/apps/Settings" />
