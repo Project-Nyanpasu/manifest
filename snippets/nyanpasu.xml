@@ -21,6 +21,8 @@
            fetch="ssh://git@github.com/ThankYouYuuri"
            revision="refs/heads/timobaka" />
 
+  <remove-project name="platform/bionic" />
+  <project path="bionic" name="bionic" remote="nyanpasu" />
   <remove-project name="platform/bootable/recovery" />
   <project path="bootable/recovery" name="bootable_recovery" remote="nyanpasu" />
 
@@ -56,6 +58,8 @@
   </project>
 
   <!-- External -->
+  <remove-project name="platform/external/jemalloc_new" />
+  <project path="external/jemalloc_new" name="external_jemalloc_new" remote="nyanpasu" />
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
 
   <!-- Frameworks -->
