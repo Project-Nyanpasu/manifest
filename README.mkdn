@@ -31,3 +31,12 @@ lunch nyanpasu_{device}-{type}
 mka bacon
 ```
 Then enjoy it.
+
+### Submitting patches
+
+Currently we're using [Gerrit](https://review.reallysnow.moe/) as our code review platform.
+
+To upload changes, we do recommend connecting via SSH with any Git client tool as you like:
+```
+git push ssh://{user_name}@review.reallysnow.moe:29418/Project-Nyanpasu/{repo_name} HEAD:refs/for/{branch_name}
+```
