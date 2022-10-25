@@ -77,6 +77,7 @@
   <project path="hardware/libhardware" name="hardware_libhardware" remote="nyanpasu" />
 
   <!-- packages -->
+  <project path="packages/apps/AudioFX" name="packages_apps_AudioFX" remote="nyanpasu" />
   <project path="packages/apps/SimpleDeviceConfig" name="packages_apps_SimpleDeviceConfig" remote="nyanpasu" />
   <remove-project name="platform/packages/apps/CarrierConfig" />
   <project path="packages/apps/CarrierConfig" name="packages_apps_CarrierConfig" remote="nyanpasu" />
