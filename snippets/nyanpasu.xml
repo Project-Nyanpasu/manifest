@@ -91,6 +91,7 @@
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="nyanpasu" />
   <remove-project name="platform/packages/apps/ThemePicker" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="nyanpasu" />
+  <project path="packages/apps/Updater" name="packages_apps_Updater" remote="nyanpasu" />
   <remove-project name="platform/packages/apps/WallpaperPicker2" />
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="nyanpasu" />
   <remove-project name="platform/packages/modules/Bluetooth" />
