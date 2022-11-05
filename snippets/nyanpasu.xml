@@ -75,6 +75,8 @@
   <project path="hardware/interfaces" name="hardware_interfaces" remote="nyanpasu" />
   <remove-project name="platform/hardware/libhardware" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="nyanpasu" />
+  <project path="hardware/nxp/nfc" name="platform/hardware/nxp/nfc" groups="pdk" remote="aosp" />
+  <project path="hardware/nxp/secure_element" name="platform/hardware/nxp/secure_element" groups="pdk" remote="aosp" />
 
   <!-- packages -->
   <project path="packages/apps/AudioFX" name="packages_apps_AudioFX" remote="nyanpasu" />
