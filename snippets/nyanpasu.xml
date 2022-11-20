@@ -79,6 +79,7 @@
   <project path="hardware/nxp/secure_element" name="platform/hardware/nxp/secure_element" groups="pdk" remote="aosp" />
 
   <!-- packages -->
+  <project path="packages/apps/Aperture" name="packages_apps_Aperture" remote="nyanpasu" />
   <project path="packages/apps/AudioFX" name="packages_apps_AudioFX" remote="nyanpasu" />
   <project path="packages/apps/SimpleDeviceConfig" name="packages_apps_SimpleDeviceConfig" remote="nyanpasu" />
   <remove-project name="platform/packages/apps/CarrierConfig" />
