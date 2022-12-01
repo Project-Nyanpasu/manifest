@@ -58,6 +58,8 @@
   </project>
 
   <!-- External -->
+  <remove-project name="platform/external/e2fsprogs" />
+  <project path="external/e2fsprogs" name="external_e2fsprogs" remote="nyanpasu" />
   <remove-project name="platform/external/gptfdisk" />
   <project path="external/gptfdisk" name="external_gptfdisk" remote="nyanpasu" />
   <remove-project name="platform/external/jemalloc_new" />
