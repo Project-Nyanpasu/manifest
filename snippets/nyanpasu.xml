@@ -58,8 +58,12 @@
   </project>
 
   <!-- External -->
+  <remove-project name="platform/external/gptfdisk" />
+  <project path="external/gptfdisk" name="external_gptfdisk" remote="nyanpasu" />
   <remove-project name="platform/external/jemalloc_new" />
   <project path="external/jemalloc_new" name="external_jemalloc_new" remote="nyanpasu" />
+  <remove-project name="platform/external/mksh" />
+  <project path="external/mksh" name="external_mksh" remote="nyanpasu" />
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
 
   <!-- Frameworks -->
@@ -106,6 +110,8 @@
   <!-- system -->
   <remove-project name="platform/system/core" />
   <project path="system/core" name="system_core" remote="nyanpasu" />
+  <remove-project name="platform/system/libziparchive" />
+  <project path="system/libziparchive" name="system_libziparchive" remote="nyanpasu" />
   <remove-project name="platform/system/sepolicy" />
   <project path="system/sepolicy" name="system_sepolicy" remote="nyanpasu" />
   <remove-project name="platform/system/update_engine" />
