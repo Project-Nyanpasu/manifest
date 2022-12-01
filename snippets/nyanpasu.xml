@@ -118,6 +118,8 @@
   <project path="system/sepolicy" name="system_sepolicy" remote="nyanpasu" />
   <remove-project name="platform/system/update_engine" />
   <project path="system/update_engine" name="system_update_engine" remote="nyanpasu" />
+  <remove-project name="platform/system/vold" />
+  <project path="system/vold" name="system_vold" remote="nyanpasu" />
 
   <!-- vendor -->
   <project path="vendor/gapps" name="vendor_gapps" remote="nyanpasu-gitlab" clone-depth="1" />
