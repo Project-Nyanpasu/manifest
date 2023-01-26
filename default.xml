@@ -22,7 +22,7 @@
 
   <remote  name="la_vendor"
            fetch="https://git.codelinaro.org/clo/la"
-           revision="refs/tags/LA.UM.9.14.r1-20200-LAHAINA.QSSI13.0" />
+           revision="refs/tags/LA.UM.9.14.r1-21000-LAHAINA.QSSI13.0" />
 
   <default revision="refs/tags/LA.QSSI.13.0.r1-08600.01-qssi.0"
            remote="la_system"/>
