@@ -17,15 +17,12 @@
            fetch="https://gitlab.com" />
 
   <!-- CodeLinaro -->
-  <remote  name="la_system"
-           fetch="https://git.codelinaro.org/clo/la" />
+  <remote name="clo"
+          fetch="https://git.codelinaro.org/clo/la"
+          review="codelinaro.org" />
 
-  <remote  name="la_vendor"
-           fetch="https://git.codelinaro.org/clo/la"
-           revision="refs/tags/LA.UM.9.14.r1-21000-LAHAINA.QSSI13.0" />
-
-  <default revision="refs/tags/LA.QSSI.13.0.r1-09000-qssi.0"
-           remote="la_system"/>
+  <default remote="clo"
+           revision="partner-android/r-fs-release" />
 
   <!-- CodeLinaro XML -->
   <include name="snippets/system.xml" />
