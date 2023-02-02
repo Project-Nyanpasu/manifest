@@ -153,7 +153,7 @@
   </project>
 
   <!-- Other -->
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="la_system" revision="4d16d93f49c2b5ecdd0f12c38d194835dd595603" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="clo" revision="4d16d93f49c2b5ecdd0f12c38d194835dd595603" clone-depth="1" />
   <project path="tools/extract-utils" name="tools_extract-utils" remote="nyanpasu" />
   <project path="vendor/qcom/common" name="proprietary_vendor_qcom_common" remote="nyanpasu-gitlab" />
   <project path="vendor/qcom/sdclang" name="proprietary_vendor_qcom_sdclang" remote="nyanpasu-gitlab" clone-depth="1" />
