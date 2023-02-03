@@ -863,6 +863,7 @@
   <project name="platform/packages/modules/GeoTZ" path="packages/modules/GeoTZ" remote="la_system" />
   <project name="platform/packages/modules/Gki" path="packages/modules/Gki" remote="la_system" />
   <project name="platform/packages/modules/IPsec" path="packages/modules/IPsec" remote="la_system" />
+  <project name="platform/packages/modules/IntentResolver" path="packages/modules/IntentResolver" remote="la_system" />
   <project name="platform/packages/modules/Media" path="packages/modules/Media" remote="la_system" />
   <project name="platform/packages/modules/ModuleMetadata" path="packages/modules/ModuleMetadata" remote="la_system" />
   <project name="platform/packages/modules/NetworkPermissionConfig" path="packages/modules/NetworkPermissionConfig" remote="la_system" />
