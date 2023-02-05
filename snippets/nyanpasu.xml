@@ -147,6 +147,10 @@
   <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" remote="nyanpasu" />
   <remove-project name="platform/vendor/nxp/opensource/external/libnfc-nci" />
   <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="vendor_nxp_opensource_external_libnfc-nci" remote="nyanpasu" />
+  <remove-project name="platform/vendor/nxp/opensource/packages/apps/Nfc" />
+  <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="vendor_nxp_opensource_commonsys_packages_apps_Nfc" remote="nyanpasu">
+    <linkfile dest="vendor/qcom/defs/product-defs/system/nfc-system-product.mk" src="nfc_system_product.mk" />
+  </project>
 
   <!-- Other -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="la_system" revision="4d16d93f49c2b5ecdd0f12c38d194835dd595603" clone-depth="1" />
